@@ -19,7 +19,17 @@
     </section>
 
     <section class="main-content">
-      <p>nio缓冲区关于用户空间、内核空间、磁盘空间。</p>
+      <p>一、nio
+   1、缓冲区
+     1.1 缓冲区基本概念
+            缓冲区是包含在一个对象内的基本数据元素数组。
+     1.2 缓冲区的基本属性
+            容量（Capacity）
+               缓冲区能够容纳的数据元素最大数量.这容量在缓冲区create时，被设定，永远不能change.
+            上界(Limit) 
+               缓冲区第一个不能被读写的元素。或者说，缓冲区中现存元素的计数。
+            位置（Position）
+               下一个要被读或写的元素索引。位置会自动由相应的get()和put()函数更新。</p>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/whhh/whh.github.io">Whh.GitHub.io</a> is maintained by <a href="https://github.com/whhh">whhh</a>.</span>
